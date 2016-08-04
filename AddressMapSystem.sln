@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E4178109-C4E6-4D3C-98F6-CC3152D58182}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7D98A255-BE4A-4CB3-A3BE-6A5A4A706371}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AddressMapSystem", "src\AddressMapSystem\AddressMapSystem.xproj", "{758285D9-040D-4EB0-B8F2-2FC586C11202}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AddressMapSystem.Core", "src\AddressMapSystem.Core\AddressMapSystem.Core.xproj", "{91305EAA-4C6F-4405-ACE1-6B0C9997C9BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{758285D9-040D-4EB0-B8F2-2FC586C11202}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{758285D9-040D-4EB0-B8F2-2FC586C11202}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{758285D9-040D-4EB0-B8F2-2FC586C11202}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{758285D9-040D-4EB0-B8F2-2FC586C11202}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91305EAA-4C6F-4405-ACE1-6B0C9997C9BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91305EAA-4C6F-4405-ACE1-6B0C9997C9BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91305EAA-4C6F-4405-ACE1-6B0C9997C9BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91305EAA-4C6F-4405-ACE1-6B0C9997C9BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{758285D9-040D-4EB0-B8F2-2FC586C11202} = {E4178109-C4E6-4D3C-98F6-CC3152D58182}
+		{91305EAA-4C6F-4405-ACE1-6B0C9997C9BF} = {E4178109-C4E6-4D3C-98F6-CC3152D58182}
+	EndGlobalSection
+EndGlobal
